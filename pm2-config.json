@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "pm2",
+            "cwd": "/home/reza/Desktop/pm2",
+            "script": "app.js",
+            "env": {
+                "EXPRESS_p": 3010,
+                "DEBUG" : "EXPRESS"
+            }
+        }
+    ]
+}
